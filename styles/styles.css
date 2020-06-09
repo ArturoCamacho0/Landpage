@@ -1,0 +1,218 @@
+@font-face{
+    font-family: "Josefin Slab";
+    src: url(fonts/JosefinSlab/JosefinSlab-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/Montserrat-Bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Great Vibes";
+    src: url(fonts/Great\ Vibes/GreatVibes-Regular.ttf);
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Lora";
+    src: url(fonts/Lora/Lora-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Montserrat",  Arial, Helvetica, sans-serif;
+}
+
+#cabecera{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #333;
+    list-style: none;
+    font-size: 12px;
+    cursor: pointer;
+    padding-right: -100px;
+    padding-left: -100px;
+}
+
+#menu a:hover{
+    color: pink;
+}
+
+#image_menu{
+    width: 150px;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 100px;
+}
+
+#contenido{
+    width: 100%;
+    height: 2000px;
+}
+
+#conteo{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-image: url(images/modelo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#conteo > h1{
+    font-family: "Josefin Slab";
+    margin-top: 100px;
+    color: black;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+#conteo > h2{
+    font-family: "Great Vibes";
+    font-size: 100px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+#reloj{
+    width: 50%;
+    font-size: 80px;
+    display: flex;
+    font-family: "Great Vibes";
+    color: white;
+    font-weight: 100;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#reloj span div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tipo{
+    font-size: 30px;
+}
+
+#mensaje{
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    background-image: url(images/modelo2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#mensaje > p{
+    text-align: center;
+    padding-bottom: 100px;
+    color: whitesmoke;
+    font-size: 18px;
+    text-shadow: 0px 0px 3px #333;
+    font-weight: 100;
+}
+
+#lugar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    flex-flow: column;
+}
+
+#lugar h2{
+    font-family: "Great Vibes";
+    font-size: 50px;
+}
+
+#ubicaciones{
+    margin-top: 80px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ubicacion{
+    background-color: rgb(241, 241, 241);
+    width: 40%;
+    padding: 30px;
+}
+
+.ubicacion > p{
+    font-family: "Josefin Slab";
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.img_lugar{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ubicacion pre{
+    font-family: "Josefin Slab";
+    margin-bottom: 20px;
+}
+
+.direccion{
+    font-family: "Lora";
+    font-size: 16px;
+}
+
+.direccion p{
+    margin-top: 10px;
+}
+
+.boton_mapa{
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    background-color: #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.boton_mapa:hover{
+    color: black;
+    background-color: white;
+}

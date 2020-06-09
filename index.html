@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Landpage</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+        <script type="text/javascript" src="scripts/jquery-3.5.0.min.js"></script>
+        <script type="text/javascript" src="scripts/script.js"></script>
+    </head>
+
+    <body>
+        <!-- Menú de la página -->
+        <header id="cabecera">
+            <nav>
+                <ul id="menu">
+                    <a id="inicio"><li>INICIO</li></a>
+                    <a id="donde"><li style="margin-right: 20px;">¿DÓNDE Y CUANDO?</li></a>
+
+                    <a><img id="image_menu"/></a>
+
+                    <a id="confirmar"><li>CONFIRMAR ASISTENCIA</li></a>
+                    <a id="fotos"><li>FOTOS</li></a>
+                    <a id="regalos"><li>MESA DE REGALOS</li></a>
+                </ul>
+            </nav>
+        </header>
+
+
+        <section id="contenido">
+            <!-- Contador y titulo -->
+            <div id="conteo">
+                <h1>Arturo Camacho</h1>
+                <h2>Desarrollador web</h2>
+
+                <!-- Reloj -->
+                <div id="reloj">
+                    <span>
+                        <div id="dias">365</div>
+                        <div class="tipo">Días</div>
+                    </span>
+                    <span class="separador">:</span>
+
+                    <span>
+                        <div id="horas">24</div>
+                        <div class="tipo">Horas</div>
+                    </span>
+
+                    <span class="separador">:</span>
+
+                    <span>
+                        <div id="minutos">60</div>
+                        <div class="tipo">Minutos</div>
+                    </span>
+
+                    <span class="separador">:</span>
+
+                    <span>
+                        <div id="segundos">60</div>
+                        <div class="tipo">Segundos</div>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Mensaje de agradecimiento -->
+            <div id="mensaje">
+                <p>
+                    Porque eres parte de mi vida y has acompañado mi camino, quiero <br/>
+                    que seas parte de este momento tan importante para mi.
+                </p>
+            </div>
+
+            <div id="lugar">
+                <h2>Dónde & Cuándo</h2>
+
+                <div id="ubicaciones">
+                    <div class="ubicacion">
+                        <p>CEREMONIA RELIGIOSA</p>
+                        <img class="img_lugar" src="styles/images/lugar1.jpg"/>
+                        <pre>PARROQUIA SAN CARLOS BORROMEO</pre>
+
+                        <span class="direccion">
+                            <p><strong>Cuándo:</strong> 09/12/2020 18:00:00</p>
+                            <p><strong>Dirección:</strong> Fraccionamiento San Carlos, calle paseo san Pedro S/N Metepec, Estado de México</p>
+                        </span>
+
+                        <button class="boton_mapa">Ver en mapa</button>
+                    </div>
+
+                    <div class="ubicacion">
+                        <p>RECEPCIÓN</p>
+                        <img class="img_lugar" src="styles/images/lugar2.jpg"/>
+
+                        <span class="direccion">
+                            <p><strong>Cuándo:</strong> 09/12/2020 19:30:00</p>
+                            <p><strong>Dirección:</strong> Josefa Ortiz de Domínguez 99, Lazaro Cardenas, 52148 Metepec, Méx., México</p>
+                        </span>
+
+                        <button class="boton_mapa">Ver en mapa</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
